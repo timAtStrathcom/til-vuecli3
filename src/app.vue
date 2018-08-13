@@ -7,14 +7,14 @@
 </template>
 
 <script>
-import TradeForm from './components/widgets/trade-form.vue';
+import TradeForm from './components/widgets/trade-form.vue'
 
 export default {
   name: 'TilTestApp',
   components: {
     TradeForm,
   },
-};
+}
 </script>
 
 <style scoped>
