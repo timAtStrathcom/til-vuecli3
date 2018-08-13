@@ -18,6 +18,14 @@ yarn install
 yarn serve
 ```
 
+### Try it on a non-vue site
+
+```
+yarn http-server .
+```
+
+Then browse to http://localhost:8080/dealer-site.html
+
 ### Compiles and minifies for production
 ```
 yarn build
