@@ -1,24 +1,24 @@
 <template>
-  <div>
-    <strong>Hello, Vue!</strong>
-    <p>The trade widget will appear below</p>
-    <trade-form/>
+  <div class="container">
+    <h1 class="title">Example Vue App</h1>
+
+    <trade-in-leads/>
   </div>
 </template>
 
 <script>
-import TradeForm from './components/widgets/trade-form.vue'
+import TradeInLeads from './components/widgets/trade-in-leads/trade-in-leads'
 
 export default {
-  name: 'TilTestApp',
+  name: 'widget-test-app',
   components: {
-    TradeForm,
+    TradeInLeads,
   },
 }
 </script>
 
 <style scoped>
-    strong {
-        color: tomato;
-    }
+  p {
+    margin-bottom: 20px;
+  }
 </style>
