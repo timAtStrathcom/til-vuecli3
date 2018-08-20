@@ -24,13 +24,8 @@ $colors: map-merge($colors, $addColors);
 
 @import "~bulma/sass/utilities/_all";
 @import "~bulma/sass/base/_all";
-@import "~bulma/sass/components/dropdown";
 @import "~bulma/sass/elements/box";
 @import "~bulma/sass/elements/button";
 @import "~bulma/sass/elements/container";
 @import "~bulma/sass/elements/form";
-@import "~bulma/sass/elements/table";
 @import "~bulma/sass/elements/title";
-
-@import "~buefy/src/scss/utils/_all";
-@import "~buefy/src/scss/components/autocomplete";
