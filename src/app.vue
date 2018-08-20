@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import TradeInLeads from './components/widgets/trade-in-leads/trade-in-leads'
+import TradeInLeads from '@/components/trade-in-leads'
 
 export default {
   name: 'widget-test-app',

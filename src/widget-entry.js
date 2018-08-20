@@ -1,9 +1,7 @@
 import Vue from 'vue'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import '@/assets/scss/app.scss'
-import TradeForm from './trade-in-leads'
-
-Vue.component('font-awesome-icon', FontAwesomeIcon);
+import TradeForm from './components/trade-in-leads'
+import './widget-setup'
 
 (function smiInitTradeForm(hostElementId = '#smi-trade-in') {
   new Vue({

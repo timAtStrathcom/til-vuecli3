@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build:app": "vue-cli-service build --report",
-    "build:trade-in-leads": "vue-cli-service build --target lib --name trade-in-leads src/components/widgets/trade-in-leads/trade-in-leads-entry.js --report",
+    "build:trade-in-leads": "vue-cli-service build --target lib --name trade-in-leads src/widget-entry.js --report",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
     "start": "http-server ."

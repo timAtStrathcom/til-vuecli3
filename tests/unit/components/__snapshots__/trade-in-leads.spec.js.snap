@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`trade-in-leads matches snapshot 1`] = `
+<div class="trade-in-widget box">
+  <div class="title">
+    Value Your Trade
+    <img src="@/assets/img/black-book-logo--grey.png" class="cbb-logo is-pulled-right">
+  </div>
+  <tradeinautocomplete-stub value=""></tradeinautocomplete-stub>
+</div>
+`;
