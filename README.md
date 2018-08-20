@@ -1,42 +1,34 @@
-# TIL /w Vue Cli 3
+# Trade-In Leads JS Widget
 
-## Prerequisites
+This repository contains the trade-in leads (TIL) embeddable javascript only.
 
-- Install @vue/cli and @vue/cli-service-global globally
+## Contributing
+
+Technology you should know before proceeding:
+
+
+
+### Setup
+
+First, make sure you have `@vue/cli` and `@vue/cli-service-global` installed globally.
 
 ```
 npm install -g @vue/cli @vue/cli-service-global
 ```
 
-## Project setup
-```
-yarn install
-```
+Run `yarn install` to install project dependencies. 
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+### NPM Commands
 
-### Try it on a non-vue site
+#### Development
 
-```
-yarn http-server .
-```
+- **serve** - Start a dev server for local development
+- **test:unit** - Run unit tests
+- **lint** - Run the linter
 
-Then browse to http://localhost:8080/dealer-site.html
+_Note_: Linting and unit tests will run automatically before each commit.
 
-### Compiles and minifies for production
-```
-yarn build
-```
+#### Production
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Run your unit tests
-```
-yarn test:unit
-```
+- **build:trade-in-leads** - Build the TIL widget for production
+- **start** - Run a local webserve that serves the _built_ production output
